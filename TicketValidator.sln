@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.438
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketValidator", "TicketValidator\TicketValidator.csproj", "{616C85F5-1066-416D-A376-F104236C540A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{98C268A1-FCD3-4B38-BA00-DF8FD55630FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{616C85F5-1066-416D-A376-F104236C540A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616C85F5-1066-416D-A376-F104236C540A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616C85F5-1066-416D-A376-F104236C540A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616C85F5-1066-416D-A376-F104236C540A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98C268A1-FCD3-4B38-BA00-DF8FD55630FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98C268A1-FCD3-4B38-BA00-DF8FD55630FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98C268A1-FCD3-4B38-BA00-DF8FD55630FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98C268A1-FCD3-4B38-BA00-DF8FD55630FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F15DDE9B-9FBA-4FB5-8E95-00091ADD1AF9}
+	EndGlobalSection
+EndGlobal

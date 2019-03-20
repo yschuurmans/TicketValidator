@@ -1,0 +1,27 @@
+﻿@model TicketValidator.Models.TicketValid
+
+@{
+    ViewData["Title"] = "Check";
+}
+
+
+
+<h1>Check</h1>
+
+<div>
+    <h1>Ticket Validatie</h1>
+    <hr />
+    <div class="col-md-10 offset-md-1">
+    @{
+        if (Model.IsValid)
+        {
+            <img style="width:100%" src="/Images/transparent-green-checkmark-md.png">
+        }
+        else
+        {
+            <img style="width:100%"  src="/Images/Red-Cross-Transparent-PNG.png">
+            <h3 class="text-center">@Model.ErrorMessage</h3>
+        }
+    }
+    </div>
+</div>
